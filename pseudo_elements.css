@@ -1,0 +1,18 @@
+h2 {
+    transition: padding-left 800ms ease-in-out,
+                color        800ms ease-in-out, 
+                text-decoration  800ms ease-in-out;
+}
+
+h2:hover {
+    opacity: 0;
+    text-decoration: underline;
+    color:lightgreen;
+    padding-left: 300px;
+    transition: padding-left 800ms ease-in-out, 
+                color        800ms ease-in-out,
+                opacity      800ms ease-in-out,
+                text-decoration  800ms ease-in-out;
+}
+
+
